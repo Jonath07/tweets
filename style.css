@@ -1,0 +1,65 @@
+*{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f8fa;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:azure ;
+}
+
+.ventana{
+    display: grid;;
+    border: 1px solid #030303;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ventana h1{
+    margin: 5px;
+}
+
+.ventana input[type="text"]{
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #e1e8ed;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.ventana input[type="button"]{
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+    width: 150px;
+    margin: 15px;
+}
+
+.ventana p{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    border: none;
+    align-content: end;
+}
+
